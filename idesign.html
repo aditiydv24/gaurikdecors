@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .table{
+            margin-top: 15px;
+            }
+            .top-left{
+                color:gainsboro;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        </style>
+        <title>First Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>     
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&family=Josefin+Sans&family=Lobster&display=swap" rel="stylesheet">
+        
+        <style>
+
+            .Head {
+           text-align: center;
+           color: rgb(173, 199, 26);
+           padding: 20px;
+           background-color: rgb(71, 46, 9);
+           font-family: 'Dancing Script', cursive;
+           border-radius: 80px;
+           font-weight: bolder;
+        }
+        
+        div.container{
+            text-align: center;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:rgb(21, 76, 123);
+            background-color: rgb(3, 44, 44);
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+            font-size:large;
+        }
+            .carousel-item img{
+                
+                width: 100%;
+                height: 600px;
+               padding-left: 80px;
+               padding-right : 80px;
+               background-color: black;
+             
+               background-color: rgb(66, 39, 7);
+               z-index: 999;
+
+            }
+            .carousel-caption{
+                color:rgb(187, 129, 52);
+                background-color: rgb(6, 82, 82);
+                width: 10;
+                font-family: 'Bree Serif', serif;
+                margin-left: auto;
+                border-radius: 50px;
+                margin-right: auto;
+            }
+            .ig{
+                padding : 3px;
+            }
+        
+            .navbar-nav > .nav-item > a { 
+            background-color: rgb(170, 170, 44);
+            }
+            .top-left{
+                font-family: 'Dancing Script', cursive;
+                color:aquamarine;
+                background-color: rgb(113, 12, 12);
+                max-width: fit-content;
+            
+            }
+            .head{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+            }
+            .mid{
+                text-align: center;
+                color:brown;
+                padding:30px;
+                font-family: 'Dancing Script', cursive;
+                
+            }
+            .container{
+                background-color: black;
+                padding: 10px;
+            }
+            .card col-md-3{
+                border-radius: 50px;
+            }
+           
+            ::selection
+            {
+                color:#5c2d90;
+                background:rgb(91,44,143,.2);
+            }
+         </style>   
+         
+    </head>
+    <body>
+        
+        
+        <div class ="page wrapper">
+        <div class="bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                    <a href="" class="navbar-brand">
+                       <div class="ig">
+                        <img src="logof.jpg" width="150px">
+                    </div>
+                    </a>
+                    <div class="top-left">
+                        <h3>Gauri Khan's Decor</h3>
+                        </div>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href= "file:///C:/Users/shail/Desktop/ThinkNext%20Training/idesign.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="">Best Projects</a>
+                                      <a class="dropdown-item" href="">Projects For You</a>
+                                      <a class="dropdown-item" href="">Our Branches</a>
+                                    </div>
+                                  </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" id="moveit" href="About.html">About</a>
+                              
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.pricebefore.com/" target="_blank" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"  id="moveid" href="About.html">Contact Us</a>
+                            </li>
+                            </div>
+                        </ul>
+                        &nbsp;
+                        &nbsp;
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                        
+                    </div>
+                </nav>
+            </div>
+        
+
+        <div id="demo" class="carousel slide" data-ride="carousel"> 
+            <ul class="carousel-indicators"> 
+                <li data-target="#demo" data-slide-to="0"></li> 
+                <li data-target="#demo" data-slide-to="1" class="active"></li> 
+                <li data-target="#demo" data-slide-to="2"></li> 
+            </ul> 
+            <div class="carousel-inner"> 
+                <div class="carousel-item active"> 
+                    <img src="http://www.gaurikhan.in/images/projects/showflat-delhi/showflat-delhi-03.jpg">  
+                    <div class="carousel-caption"> 
+                        <h2>Hello! People</h2> 
+                        <p>See Our Some Best Designs..</p> 
+                    </div>
+                </div> 
+                <div class="carousel-item"> 
+                    <img src="https://thearchitectsdiary.com/wp-content/uploads/2021/09/Copy-of-ALL-FEATURE-IMAGES-7-scaled.jpg"> 
+
+                    <div class="carousel-caption"> 
+                        <h2>Hello! People</h2> 
+                        <p>See Our Some Best Designs..</p> 
+                    </div>
+                    </div>
+                </div> 
+                <div class="carousel-item"> 
+                    <img src="https://delightfull.eu/blog/wp-content/uploads/2019/06/Gauri-Khan-Designs-Its-What-Youre-Meant-To-See-For-Style-2-1024x768.png"> 
+                    <div class="carousel-caption"> 
+                        <h2>Hello! People</h2> 
+                        <p>See Our Some Best Designs..</p> 
+                    </div>
+                </div> 
+            </div> 
+            <a class="carousel-control-prev" href="#demo" data-slide="prev"> 
+                <span class="carousel-control-prev-icon"></span> 
+            </a> 
+            <a class="carousel-control-next" href="#demo" data-slide="next"> 
+                <span class="carousel-control-next-icon"></span> 
+            </a> 
+        
+           <div class="p-3 mb-2 bg-dark text-white">
+           
+           &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+          
+           
+           <section style="margin: 10px;">
+            <div class="container">
+                <div class="mt-4">
+                <div class="row">
+                <div class="mid">
+                    <h2>Different Types Of Interiors to Choose For You!</h2>
+                  </div>
+                <div class="card text-white bg-dark col-md-3" style ="padding-left:20px;">
+                <img src= "C1.jpeg">
+                <div class="head">
+                <h4> Traditional</h4></div>
+                <p>Click to Explore More About this Design</p>
+                <a href="https://www.thespruce.com/decorating-in-the-traditional-style-1977669" >
+                    <button type="button" class="btn btn-warning">See More</button>
+                 </a>  
+                </div>
+                <div class="card text-white bg-dark col-md-3">
+                    <img src = "c2.jpg">
+                    <div class="row" style ="padding:30px;">
+                    <div class ="head">
+                    <h4>Comtemporary</h4></div>
+                    <p>Click to Explore More About this Design</p>
+                    <a href="https://www.decoraid.com/blog/interior-design-style/contemporary-style/" >
+                        <button type="button" class="btn btn-warning">See More</button>
+                     </a>  
+                    </div>
+                    </div>
+                    <div class="card text-white bg-dark col-md-3">
+                        <img src="C3.jpg">
+
+                        <div class="head">
+                        <h4> Minimalist</h4></div>
+                        <p>Click to Explore More About this Design</p>
+                        <a href="https://home.tarkett.com/en_EU/node/what-is-minimalist-interior-design-style-8860">
+                            <button type="button" class="btn btn-warning">See More</button>
+                         </a>  
+                        </div>
+                        <div class="card text-white bg-dark col-md-3">
+                            <img src="Zen-Interiors-32-1-Kindesign.jpg">
+                            <div class="head">
+                            <h4>Asian Zen</h4></div>
+                            <p>Click to Explore More About this Design</p>
+                            <a href="https://www.decoraid.com/blog/interior-design-style/asian-zen-interior-design/" >
+                                <button type="button" class="btn btn-warning">See More</button>
+                             </a>  
+                            </div>
+                        
+            </div>
+                </div>
+        </div>
+        </section>
+
+    
+       
+        
+       <div class="pro"  style="text-align:center ; padding: 50px; font-weight: bolder ; color:darkgreen; font-family: 'Dancing Script', cursive;" >
+        <h2 class = "Head">OUR PROGRESS IN LAST FEW YEARS</h2>
+        <br>
+        <img src ="growing.png"></div>
+
+        <h2 class = "Head">OUR PAST RECORDS</h2>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+ <div class="container" style = "background-color: bisque;">
+    <div class="container">
+        <table class="table table-bordered table-hover">
+           
+            <thead class="thead-dark">
+        <tr>
+               <th>&nbsp&nbsp&nbsp&nbsp&nbspYear</th>
+              <th>&nbsp&nbsp&nbsp&nbsp&nbspSells</th>
+              <th> &nbsp&nbsp&nbsp&nbsp&nbspSuccess Rate</th>       
+        </tr>
+         </thead>
+        <tbody>
+        <tr>
+            <td>&nbspxyz</td>
+            <td>&nbspabc</td>
+            <td>&nbsp563</td>
+        </tr>
+        <tr>
+            <td>xyz</td>
+            <td>abc</td>
+            <td>563</td>
+        </tr>
+        <tr>
+            <td>xyz</td>
+            <td>abc</td>
+            <td>563</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+    </div>
+     <br>
+     <br>
+           <div class="Head" style = "font-size:30px;">FAQs</div>
+           <br>
+           <br>
+          
+           <hr class="solid">
+<h2 class="headingMain3" data-aos="flip-up" style ="text-align: center;">FAQs</h2>
+
+<div id="accordian">
+<div class="container">
+    <div  id="accordionFlushExample">
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseTwo">
+    1. Why should you choose our Company?
+    </button>
+    </h2>
+    <div id="flush-collapseOne">
+    <div class="accordion-body">Our Company provides the best designes according to your choice.
+</div>
+    </div>
+    </div>
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+           
+           2. What are the ratings?
+        </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">GK's Designs is rated 4.5 by TOI in 2022 survey.</div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        3.What are the features of your product?
+        </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Mentioned Below:-<br>
+        a. Impact<br>
+        b. Feasibility<br>
+        c. Authenticity<br>
+        d. Novelty<br>
+        e. Solution design<br>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+            
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse17">
+        4.Which places you provide services?
+        </button>
+        </h2>
+        <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="17" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+         Our Services are available in Delhi ,Chandigarh ,Gurgoan ,Bhopal ,Hyderabad and Pune.
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="16">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
+        5. Which designers you have?
+        </button>
+        </h2>
+        <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="16" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+       We have picked up the best designers for provide best decor to our customers.
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="1">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+      </div>  
+      </div>
+      </div>
+      </div>
+
+     
+      
+
+      </div>
+     
+
+      </section>
+    </body>
+    </html>
+
